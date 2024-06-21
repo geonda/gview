@@ -1,6 +1,6 @@
 # gview
 Basic set up for crystal structure visualization using plotly.
-
+Fill free to improve. 
 
 # installation
 `git clone https://github.com/geonda/gview.git && cd gview`
@@ -36,15 +36,18 @@ The plot method of visual object takes dictionary with parameters allowing basic
                 cell_vectors=False,
                 resolution=50))
 ```
-E.g. `bond_color=True` colors the bond line according to its length and color scale info from `bond_color_scale=...`. 
+E.g. `bond_color=True` colors the bond line according to its length and color scale info from `bonds_color_scale=...`. 
 ![img](https://github.com/geonda/gview/blob/main/example/fig1a.png)
 
-Once hovered over the atom or bond it shows related info (index starts from 0). One can also choose which bonds to show specifing option `bond_elements=['Ni', 'O']`.
+Once hovered over the atom or bond it shows related info (index starts from 0). One can also choose which bonds to show specifing option `bonds_elements=['Ni', 'O']`.
 
 ![](https://github.com/geonda/gview/blob/main/example/fig2.png)
 
 Projection flag (`projection=True`) gives 2d snapshot for the projection_type='xz' plane.
 
 ![](https://github.com/geonda/gview/blob/main/example/fig3.png)
+
+
 Inherited from ploty `.fig` attribute can be use for futher customization. 
+
 
