@@ -24,7 +24,8 @@ visual_instance.fig.show()
 # comments 
 The plot method of visual object takes dictionary with parameters allowing basic customization. 
 `.plot(param=dict(bonds=False,bonds_length=True ..))`
-!](https://github.com/geonda/gview/blob/main/example/fig2.png)
+[!](https://github.com/geonda/gview/blob/main/example/fig2.png)
+
 One can specify 2d vs 3d view by turning on projection flag. 
 ![](https://github.com/geonda/gview/blob/main/example/fig3.png)
 Inherited from ploty `.fig` attribute can be use for futher customization. 
