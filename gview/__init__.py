@@ -1,1 +1,1 @@
-from gview import *
+from gview.gview import *
