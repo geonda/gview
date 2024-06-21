@@ -19,7 +19,7 @@ visual_instance=visual(atoms)
 visual_instance.plot()
 visual_instance.fig.show()
 ```
-!(https://github.com/geonda/gview/blob/main/example/fig1.png)
+![img](https://github.com/geonda/gview/blob/main/example/fig1.png)
 
 # comments 
 The plot method of visual object takes dictionary with parameters allowing basic customization. 
