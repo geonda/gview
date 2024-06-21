@@ -21,7 +21,7 @@ visual_instance=visual(atoms)
 visual_instance.plot()
 visual_instance.fig.show()
 ```
-![img](https://github.com/geonda/gview/blob/main/example/fig1a.png)
+![img](https://github.com/geonda/gview/blob/main/example/fig1b.png)
 
 # comments 
 The plot method of visual object takes dictionary with parameters allowing basic customization. 
@@ -36,12 +36,15 @@ The plot method of visual object takes dictionary with parameters allowing basic
                 cell_vectors=False,
                 resolution=50))
 ```
+E.g. `bond_color=True` colors the bond line according to its length and color scale info from `bond_color_scale=...`. 
+![img](https://github.com/geonda/gview/blob/main/example/fig1a.png)
 
-Once hovered over atoms or bonds it shows related info. One can also choose which bonds to show specifing option `bond_elements=['Ni', 'O']`.
+Once hovered over the atom or bond it shows related info (index starts from 0). One can also choose which bonds to show specifing option `bond_elements=['Ni', 'O']`.
 
 ![](https://github.com/geonda/gview/blob/main/example/fig2.png)
 
-One can specify 2d vs 3d view by turning on projection flag. 
+Projection flag (`projection=True`) gives 2d snapshot for the projection_type='xz' plane.
+
 ![](https://github.com/geonda/gview/blob/main/example/fig3.png)
 Inherited from ploty `.fig` attribute can be use for futher customization. 
 
