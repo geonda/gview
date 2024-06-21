@@ -3,8 +3,9 @@ Basic set up for crystal structure visualization using plotly.
 
 
 # installation
--`git clone https://github.com/geonda/gview.git && cd gview`
--`python setup.py install`
+`git clone https://github.com/geonda/gview.git && cd gview`
+
+`python setup.py install`
 
 # usage
 The code takes [siman](https://github.com/dimonaks/siman.git) structure object as an input. The later supports formats from VASP(POSCAR) to CIF and XYZ. 
@@ -20,7 +21,7 @@ visual_instance=visual(atoms)
 visual_instance.plot()
 visual_instance.fig.show()
 ```
-![img](https://github.com/geonda/gview/blob/main/example/fig1.png)
+![img](https://github.com/geonda/gview/blob/main/example/fig1a.png)
 
 # comments 
 The plot method of visual object takes dictionary with parameters allowing basic customization. 
