@@ -12,6 +12,7 @@ The code takes [siman](https://github.com/dimonaks/siman.git) structure object a
 from siman.calc_manage import smart_structure_read
 atoms=smart_structure_read('test.cif')
 ```
+Finally to run the code:
 ```
 from gview import visual
 
@@ -23,7 +24,19 @@ visual_instance.fig.show()
 
 # comments 
 The plot method of visual object takes dictionary with parameters allowing basic customization. 
-`.plot(param=dict(bonds=False,bonds_length=True ..))`
+```
+.plot(param=dict(bonds=True,
+                bonds_length=True,
+                bonds_color_scale='Viridis',
+                scatter=False,
+                bonds=True,
+                bonds_color=True,
+                bonds_length=False,
+                cell_vectors=False,
+                resolution=50))
+```
+
+Once hovered over atoms or bonds it shows related info. One can also choose which bonds to show specifing option `bond_elements=['Ni', 'O']`.
 
 ![](https://github.com/geonda/gview/blob/main/example/fig2.png)
 
