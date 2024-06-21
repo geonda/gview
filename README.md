@@ -19,13 +19,13 @@ visual_instance=visual(atoms)
 visual_instance.plot()
 visual_instance.fig.show()
 ```
-![alt text]((https://github.com/geonda/gview/main/example/fig1.png "structure 1")
+!(https://github.com/geonda/gview/blob/main/example/fig1.png)
 
 # comments 
 The plot method of visual object takes dictionary with parameters allowing basic customization. 
 `.plot(param=dict(bonds=False,bonds_length=True ..))`
-![alt text]((https://github.com/geonda/gview/main/example/fig2.png "structure 2")
+(https://github.com/geonda/gview/blob/main/example/fig2.png)
 One can specify 2d vs 3d view by turning on projection flag. 
-![alt text]((https://github.com/geonda/gview/main/example/fig3.png "structure 3")
+(https://github.com/geonda/gview/blob/main/example/fig3.png)
 Inherited from ploty `.fig` attribute can be use for futher customization. 
 
